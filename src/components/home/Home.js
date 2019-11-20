@@ -24,7 +24,7 @@ const Home = () => {
         <div className='title'>Manage Campaigns</div>
       </Row>
       <TableNavigation loadData={loadData}/>
-      {list.data && <TableList list={list}/>}
+      {list.data && <TableList list={list.data}/>}
     </Container>
   )
 }

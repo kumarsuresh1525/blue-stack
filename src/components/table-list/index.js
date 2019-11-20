@@ -15,7 +15,7 @@ import PriceModal from './price-modal';
 const TableList = (props) => {
   const [list, setList] = useState(props.list);
   const [modal, setModal] = useState(false);
-  const [mList, setData] = useState(props.list.data[0]);
+  const [mList, setData] = useState(props.list[0]);
   const img = [img1, img2, img3, img4, img5];
   
   useEffect(() => {
@@ -24,13 +24,13 @@ const TableList = (props) => {
     }
   });
   const handleSchedule = (event, item) => {
-    const updateList = list.data.map((elm) => {
+    list.map((elm) => {
       if (elm.id === item.id) {
         elm.createdOn = event.target.value;
       }
       return elm;
     });
-    setList({list: updateList});
+    setList({list});
   }
 
   const toggle = () => setModal(!modal);
@@ -56,7 +56,7 @@ const TableList = (props) => {
           </div>
         </div>
           {
-            list.data.map((item, index) => {
+            list.length > 0 && list.map((item, index) => {
               item.image_url = img[index];
               return (
               <div className='row' key={item.id}>
