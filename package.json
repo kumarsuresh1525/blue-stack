@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kumarsuresh1525.github.io/blue-stack",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "history": "^4.10.1",
@@ -20,6 +21,8 @@
     "serve": "^11.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "PORT=8080 react-scripts start",
@@ -40,7 +43,8 @@
   "devDependencies": {
     "@testing-library/react": "^9.3.2",
     "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1"
+    "enzyme-adapter-react-16": "^1.15.1",
+    "gh-pages": "^2.1.1"
   },
   "jest": {
       "collectCoverageFrom": [
