@@ -1,0 +1,14 @@
+@import '../../assets/styles/variables';
+
+.header {
+  background-color: #1F2640;
+  height: 80px;
+
+  a {
+    color: $white;
+  }
+
+  #language {
+    width: 100px;
+  }
+}

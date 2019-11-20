@@ -1,0 +1,10 @@
+@import '../../../src/assets/styles/variables';
+@import '../../../src/assets/styles/mixins';
+
+.title {
+  @include fontSize(48px);
+  font-weight: bold;
+  line-height: 50px;
+  color: #2B416C;
+  margin: 40px 0 40px 15px;
+}

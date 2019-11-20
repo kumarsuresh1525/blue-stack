@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table navigation test should render table navigation component 1`] = `
+<div>
+  <div
+    class="table-list"
+  >
+    <div
+      class="row list-header"
+    >
+      <div
+        class="col-xs-12 col-md-4 col-lg-2"
+      >
+        Date
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-3"
+      >
+        Campaign
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-2"
+      >
+        View
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-5"
+      >
+        Actions
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <div
+          class="date"
+        >
+          Dec 2019, 10
+        </div>
+        <div
+          class="days-ago"
+        >
+          21
+           days Ago
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-3 sub-list"
+      >
+        <div
+          class="campign-info"
+        >
+          <img
+            alt="campign"
+            class="campign"
+            src="img2.png"
+          />
+          <div
+            class="details"
+          >
+            <div>
+              Test Whatsapp
+            </div>
+            <div
+              class="region"
+            >
+              US
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <img
+          alt="price"
+          class="price"
+          src="price.png"
+        />
+         View Pricing
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-5 sub-list"
+      >
+        <div
+          class="actions"
+        >
+          <span>
+            <img
+              alt="csv"
+              class="price"
+              src="file.png"
+            />
+             CSV
+          </span>
+          <span>
+            <img
+              alt="report"
+              class="price"
+              src="statistics-report.png"
+            />
+             Report
+          </span>
+          <span>
+            <input
+              id="date-picker"
+              type="date"
+            />
+            <img
+              alt="calendar"
+              class="price"
+              for="date-picker"
+              src="calendar.png"
+            />
+             Schedule Again
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <div
+          class="date"
+        >
+          Dec 2019, 19
+        </div>
+        <div
+          class="days-ago"
+        >
+          30
+           days Ago
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-3 sub-list"
+      >
+        <div
+          class="campign-info"
+        >
+          <img
+            alt="campign"
+            class="campign"
+            src="img3.png"
+          />
+          <div
+            class="details"
+          >
+            <div>
+              Super Jewels Quest
+            </div>
+            <div
+              class="region"
+            >
+              CA, FR
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <img
+          alt="price"
+          class="price"
+          src="price.png"
+        />
+         View Pricing
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-5 sub-list"
+      >
+        <div
+          class="actions"
+        >
+          <span>
+            <img
+              alt="csv"
+              class="price"
+              src="file.png"
+            />
+             CSV
+          </span>
+          <span>
+            <img
+              alt="report"
+              class="price"
+              src="statistics-report.png"
+            />
+             Report
+          </span>
+          <span>
+            <input
+              id="date-picker"
+              type="date"
+            />
+            <img
+              alt="calendar"
+              class="price"
+              for="date-picker"
+              src="calendar.png"
+            />
+             Schedule Again
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <div
+          class="date"
+        >
+          Dec 2019, 25
+        </div>
+        <div
+          class="days-ago"
+        >
+          36
+           days Ago
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-3 sub-list"
+      >
+        <div
+          class="campign-info"
+        >
+          <img
+            alt="campign"
+            class="campign"
+            src="img4.png"
+          />
+          <div
+            class="details"
+          >
+            <div>
+              Mole Slayer
+            </div>
+            <div
+              class="region"
+            >
+              FR
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <img
+          alt="price"
+          class="price"
+          src="price.png"
+        />
+         View Pricing
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-5 sub-list"
+      >
+        <div
+          class="actions"
+        >
+          <span>
+            <img
+              alt="csv"
+              class="price"
+              src="file.png"
+            />
+             CSV
+          </span>
+          <span>
+            <img
+              alt="report"
+              class="price"
+              src="statistics-report.png"
+            />
+             Report
+          </span>
+          <span>
+            <input
+              id="date-picker"
+              type="date"
+            />
+            <img
+              alt="calendar"
+              class="price"
+              for="date-picker"
+              src="calendar.png"
+            />
+             Schedule Again
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <div
+          class="date"
+        >
+          Dec 2019, 5
+        </div>
+        <div
+          class="days-ago"
+        >
+          16
+           days Ago
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-3 sub-list"
+      >
+        <div
+          class="campign-info"
+        >
+          <img
+            alt="campign"
+            class="campign"
+            src="img5.png"
+          />
+          <div
+            class="details"
+          >
+            <div>
+              Mancala Mix
+            </div>
+            <div
+              class="region"
+            >
+              JP
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-2 sub-list"
+      >
+        <img
+          alt="price"
+          class="price"
+          src="price.png"
+        />
+         View Pricing
+      </div>
+      <div
+        class="col-xs-12 col-md-4 col-lg-5 sub-list"
+      >
+        <div
+          class="actions"
+        >
+          <span>
+            <img
+              alt="csv"
+              class="price"
+              src="file.png"
+            />
+             CSV
+          </span>
+          <span>
+            <img
+              alt="report"
+              class="price"
+              src="statistics-report.png"
+            />
+             Report
+          </span>
+          <span>
+            <input
+              id="date-picker"
+              type="date"
+            />
+            <img
+              alt="calendar"
+              class="price"
+              for="date-picker"
+              src="calendar.png"
+            />
+             Schedule Again
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;

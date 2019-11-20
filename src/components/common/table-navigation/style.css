@@ -1,0 +1,16 @@
+.table-navigation {
+  border-bottom: 1px solid #F1F1F4;
+  text-align: center;
+  cursor: pointer; }
+  .table-navigation > div > div {
+    color: #556789;
+    line-height: 28px;
+    font-size: 18px; }
+  .table-navigation .active {
+    color: #83A515; }
+    .table-navigation .active::after {
+      background-color: #83A515;
+      content: '';
+      display: block;
+      height: 8px;
+      position: relative; }

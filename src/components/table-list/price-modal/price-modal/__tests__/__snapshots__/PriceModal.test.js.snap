@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price modal test should render price modal 1`] = `
+<div>
+  <div />
+</div>
+`;

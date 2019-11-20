@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page test should render Home component 1`] = `
+<div>
+  <div>
+    <nav
+      class="header navbar"
+    >
+      <div
+        class="container"
+      >
+        <a
+          class="navbar-brand"
+          href="/"
+        >
+          <img
+            alt="logo"
+            class="logo"
+            src="logo.svg"
+          />
+           BlueStacks
+        </a>
+      </div>
+    </nav>
+  </div>
+</div>
+`;

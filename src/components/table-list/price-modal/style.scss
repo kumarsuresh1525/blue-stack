@@ -1,0 +1,68 @@
+.price-modal {
+  .modal-content {
+    width: 400px;
+  }
+  .modal-footer {
+    justify-content: center;
+    border: 0;
+
+    > button {
+      border: 2px solid #181B34;
+      border-radius: 0;
+      background-color: #fff;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+    }
+  }
+
+  .campign-info {
+    display: flex;
+    margin-bottom: 30px;
+
+    .details {
+      margin-top: auto;
+      margin-left: 20px;
+    }
+
+    &:first-child {
+      color: #556789;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .region {
+      line-height: 16px;
+      font-style: italic;
+      font-size: 14px;
+      color: #9CA2B7;
+    }
+  }
+
+  .pricing-details {
+    div:first-child {
+      color: #2B416C;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 32px;
+    }
+
+    .sub-details {
+      margin-top: 20px;
+      span:first-child {
+        color: #7788A3;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      span:last-child {
+        float: right;
+        color: #556789;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.price-modal .modal-content {
+  width: 400px; }
+
+.price-modal .modal-footer {
+  justify-content: center;
+  border: 0; }
+  .price-modal .modal-footer > button {
+    border: 2px solid #181B34;
+    border-radius: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px; }
+
+.price-modal .campign-info {
+  display: flex;
+  margin-bottom: 30px; }
+  .price-modal .campign-info .details {
+    margin-top: auto;
+    margin-left: 20px; }
+  .price-modal .campign-info:first-child {
+    color: #556789;
+    font-size: 16px;
+    line-height: 24px; }
+  .price-modal .campign-info .region {
+    line-height: 16px;
+    font-style: italic;
+    font-size: 14px;
+    color: #9CA2B7; }
+
+.price-modal .pricing-details div:first-child {
+  color: #2B416C;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px; }
+
+.price-modal .pricing-details .sub-details {
+  margin-top: 20px; }
+  .price-modal .pricing-details .sub-details span:first-child {
+    color: #7788A3;
+    font-size: 16px;
+    line-height: 24px; }
+  .price-modal .pricing-details .sub-details span:last-child {
+    float: right;
+    color: #556789;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px; }

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table navigation test should render table navigation component 1`] = `
+<div>
+  <div
+    class="table-navigation row"
+  >
+    <div
+      class="col-12 col-lg-3"
+    >
+      <div
+        class="active"
+        data-testid="tab-navigation"
+      >
+        Upcoming Campaigns
+      </div>
+    </div>
+    <div
+      class="col-12 col-lg-3"
+    >
+      <div
+        class=""
+        data-testid="tab-navigation"
+      >
+        Live Campaigns
+      </div>
+    </div>
+    <div
+      class="col-12 col-lg-3"
+    >
+      <div
+        class=""
+        data-testid="tab-navigation"
+      >
+        Past Campaigns
+      </div>
+    </div>
+  </div>
+</div>
+`;
