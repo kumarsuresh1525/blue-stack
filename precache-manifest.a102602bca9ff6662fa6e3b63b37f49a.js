@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/blue-stack/static/media/logo.a346d377.svg"
   },
   {
-    "revision": "e028057c57efe7e87def",
+    "revision": "25d34ebe962a17fd303e",
     "url": "/blue-stack/static/css/main.f5f228fa.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/blue-stack/static/js/2.3fea2a13.chunk.js"
   },
   {
-    "revision": "e028057c57efe7e87def",
-    "url": "/blue-stack/static/js/main.02387569.chunk.js"
+    "revision": "25d34ebe962a17fd303e",
+    "url": "/blue-stack/static/js/main.226c0e7f.chunk.js"
   },
   {
     "revision": "7173cfe7840a5f2d3853b4220f6cf851",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/blue-stack/static/css/2.aa9e3d72.chunk.css"
   },
   {
-    "revision": "11bb5f763d2d7fe2e3ba489605afc927",
+    "revision": "6540d8c00e4631c4d106f6ccf5598708",
     "url": "/blue-stack/index.html"
   }
 ];
