@@ -9,20 +9,20 @@ import img2 from '../../assets/images/img3.png';
 import img3 from '../../assets/images/img4.png';
 import img4 from '../../assets/images/img5.png';
 import img5 from '../../assets/images/img1.png';
-import { formatedDate, diffDate } from '../../utils/utils';
+import { formatedDate, diffDate, sortList } from '../../utils';
 import PriceModal from './price-modal';
 
 const TableList = (props) => {
-  const [list, setList] = useState(props.list);
+  const [list, setList] = useState(sortList(props.list, props.activeTab));
   const [modal, setModal] = useState(false);
   const [mList, setData] = useState(props.list[0]);
   const img = [img1, img2, img3, img4, img5];
   
   useEffect(() => {
     if (list !== props.list) {
-      setList(props.list);
+      setList(sortList(props.list, props.activeTab));
     }
-  });
+  }, [props.activeTab]);
   const handleSchedule = (event, item) => {
     list.map((elm) => {
       if (elm.id === item.id) {
@@ -30,7 +30,7 @@ const TableList = (props) => {
       }
       return elm;
     });
-    setList({list});
+    setList(sortList(list, props.activeTab));
   }
 
   const toggle = () => setModal(!modal);
@@ -38,6 +38,7 @@ const TableList = (props) => {
     setData(item);
     toggle();
   }
+  const eventIn = props.activeTab === 'past' ? 'ago' : 'ahead';
   return (
     <Fragment>
       <div className='table-list'>
@@ -58,11 +59,12 @@ const TableList = (props) => {
           {
             list.length > 0 && list.map((item, index) => {
               item.image_url = img[index];
+              const days = props.activeTab === 'live' ? 'live' : `${diffDate(item.createdOn)} days ${eventIn}`;
               return (
               <div className='row' key={item.id}>
                   <div className='col-xs-12 col-md-4 col-lg-2 sub-list'>
                     <div className='date'>{formatedDate(item.createdOn)}</div>
-                    <div className='days-ago'>{diffDate(item.createdOn)} days Ago</div>
+                    <div className='days-ago'>{days}</div>
                   </div>
                   <div className='col-xs-12 col-md-4 col-lg-3 sub-list'>
                     <div className='campign-info'>

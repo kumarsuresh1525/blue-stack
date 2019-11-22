@@ -47,18 +47,18 @@
     "gh-pages": "^2.1.1"
   },
   "jest": {
-      "collectCoverageFrom": [
-          "src/**/*.{js,jsx}",
-          "!**/node_modules/",
-          "!**/src/__test__/",
-          "!**/src/index.js",
-          "!**/src/utils/utils.js",
-          "!**/src/utils/Store.js",
-          "!**/src/serviceWorker.js"
-      ],
-      "coverageReporters": [
-          "lcov",
-          "html"
-      ]
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/",
+      "!**/src/__test__/",
+      "!**/src/index.js",
+      "!**/src/utils/utils.js",
+      "!**/src/utils/Store.js",
+      "!**/src/serviceWorker.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "html"
+    ]
   }
 }

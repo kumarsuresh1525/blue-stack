@@ -4,18 +4,16 @@ import './Home.css';
 import TableNavigation from '../common/table-navigation';
 import TableList from '../table-list';
 import data from '../../utils/data.json';
-import live from '../../utils/live.json';
-import past from '../../utils/past.json';
 
 const Home = () => {
-  const [list, setList] = useState(data);
+  const [activeTab, setTab] = useState('upcoming');
   const loadData = (type) => {
     if (type.includes('Live')) {
-      setList(live);
+      setTab('live');
     } else if (type.includes('Past')) {
-      setList(past);
+      setTab('past');
     } else {
-      setList(data);
+      setTab('upcoming');
     }
   }
   return (
@@ -24,7 +22,7 @@ const Home = () => {
         <div className='title'>Manage Campaigns</div>
       </Row>
       <TableNavigation loadData={loadData}/>
-      {list.data && <TableList list={list.data}/>}
+      <TableList list={data.data} activeTab={activeTab}/>
     </Container>
   )
 }
