@@ -1,6 +1,11 @@
 .price-modal .modal-content {
   width: 400px; }
 
+@media only screen and (max-width: 786px) {
+  .price-modal .modal-content {
+    width: 100%;
+    margin-left: auto; } }
+
 .price-modal .modal-footer {
   justify-content: center;
   border: 0; }

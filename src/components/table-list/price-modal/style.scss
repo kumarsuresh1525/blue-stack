@@ -2,6 +2,13 @@
   .modal-content {
     width: 400px;
   }
+
+  @media only screen and (max-width: 786px) {
+    .modal-content {
+      width: 100%;
+      margin-left: auto;
+    }
+  }
   .modal-footer {
     justify-content: center;
     border: 0;
